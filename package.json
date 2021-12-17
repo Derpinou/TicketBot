@@ -1,0 +1,25 @@
+{
+  "name": "ticketbot",
+  "version": "1.0.0",
+  "description": "Usefull Discord Ticket Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derpinou/TicketBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Derpinou/TicketBot/issues"
+  },
+  "homepage": "https://github.com/Derpinou/TicketBot#readme",
+  "dependencies": {
+    "discord-tickets": "^2.0.0",
+    "discord.js": "^13.3.1"
+  }
+}
