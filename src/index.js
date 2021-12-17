@@ -1,2 +1,7 @@
-const TicketBot = require('./Structures/Client') ;
-const client = new TicketBot()
+new (require('./Structures/Client'))({
+    intents: [
+        "GUILDS",
+        "GUILD_MESSAGES",
+        "DIRECT_MESSAGES"
+    ]
+}).init() ;
